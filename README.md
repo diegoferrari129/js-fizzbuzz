@@ -17,3 +17,19 @@ BONUS 1: Crea un container nel DOM , aggiungendo (attraverso la funzione append(
 BONUS 2: Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 
 Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
+
+///////////////////////////////////////////////////////////////////////////////
+
+//ESEGUI UN CICLO for DA 1 A 100
+
+- FOR (dichiaro una variabile con valore 1; imposto la condizione da verificare; imposto l'incremento da eseguire)
+    
+    // VERIFICA SE IL NUMERO è MULTIPLO DI 3, 5 O DI ENTRAMBI
+    // STAMPA FIZZ PER I MULTIPLI DI 3, BUZZ PER I MULTIPLI DI 5 E FIZZBUZZ PER I MULTIPLI DI ENTRAMBI
+
+    - ?SE il numero diviso 3 ha resto con valore uguale a 0
+        - stampo nella console del browser: (Fizz)
+    - :ALTRIMENTI ?SE il numero diviso 5 ha resto con valore uguale a 0
+        - stampo nella console del browser: (Buzz)
+    - :ALTRIMENTI ?SE il numero diviso 3 ha resto con valore 0 AND il numero diviso 5 ha resto con valore uguale a 0 
+        - stampo nella console del browser: (FizzBuzz)
